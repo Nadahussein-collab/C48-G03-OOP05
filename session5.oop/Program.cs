@@ -62,6 +62,25 @@
              * No, you cannot instantiate or create an object from a static class using the new keyword.
              */
             #endregion
+            #region Q4
+            /*A)Extension Method 
+             *An extension method allows you to add new methods to an existing type
+             *(class, struct, or interface) without modifying its original source code, creating a derived type, or recompiling it.
+             * 
+             *B)Required Keyword 
+             * The this keyword must precede the first parameter, 
+             * which specifies the type the method operates on.
+             * 
+             * C)Declaration Location
+             * It must be declared inside a non-nested, non-generic static class.
+             * 
+             * D)Accessing Private Members
+             * No. Extension methods are just static methods under the hood,
+             * so they can only access public and internal members of the type they extend.
+             * They cannot access private or protected members.
+             */
+
+            #endregion
         }
     }
 }
