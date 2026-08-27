@@ -81,6 +81,26 @@
              */
 
             #endregion
+            #region Q5
+            /*A)Partial Class
+             *A partial class allows the definition of a single class, struct, or interface to be split across multiple .cs files. When the application is compiled,
+             *the C# compiler combines all partial definitions into one unified class.
+             * 
+             *B)Reasons for Splitting a Class
+             *Source Control & Teamwork: Multiple developers can work on different parts of the same class simultaneously without merge conflicts.
+             *Separation of Concerns: Keeps auto-generated code (like UI designers or database scaffolders) separate from custom handwritten business logic.
+             *Maintainability: Prevents single source files from becoming overly large and difficult to navigate. 
+             * 
+             *C)Partial Method 
+             *A partial method is a method declared in one partial class file (signature only)
+             *with its implementation optionally defined in another partial class file. 
+             *It enables code generators to provide hook points that developers can optionally implement.
+             * 
+             *D)Unimplemented Partial Method 
+             * If a partial method has no implementation, the compiler completely removes its signature, 
+             * call sites, and any evaluation of parameters at compile time. It leaves zero runtime overhead or performance penalty.
+             */
+            #endregion
         }
     }
 }
